@@ -1,23 +1,72 @@
-# Compiled class file
-*.class
+<meta charset="utf-8">
+<script>
 
-# Log file
-*.log
+var a=prompt("Введите значение длины первого основания трапеции:");
+a=parseInt(a);
+ var b=prompt("Введите значение длины второго основания трапеции:");
+ b=parseInt(b);
+var h=prompt("Введите значение высоты трапеции:");
+h=parseInt(h);
+var c=((a+b)/2)*h;
+alert("Площадь трапеции равна: " + c);
 
-# BlueJ files
-*.ctxt
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+</script>
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+<meta charset="UTF-8">
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+<script>      
+    var heading=prompt("Enter your name:");
+    alert("Hello, " + heading);    
+var a = prompt("Enter first value");
+var b=prompt("Enter second value");
+a=parseInt(a);
+b=parseInt(b);
+var c=a+b;
+alert("Sum: "+c);
+    var name="Thank, you're very brain!";
+    alert(name);
+
+
+</script>
+
+<meta charset="utf-8">
+<script>
+
+var a=prompt("Сколько рублей вы хотите сконвентировать?");
+parseInt(a);
+var dollar=74.07;
+var c=a/dollar;
+alert("Получается: "+c+" долларов");
+var b=prompt("Сколько рублей вы хотите сконвентировать?");
+parseInt(b);
+var euro=88.43;
+var d=b/euro;
+alert("Получается: "+d+" евро");
+
+
+
+
+/*
+var a=prompt("Введите количество рублей для перевода в доллары");
+parseInt(a);
+var c=a/74.07;
+alert("Получается: "+c+" долларов");
+var b=prompt("Введите количество рублей для перевода в евро");
+parseInt(b);
+var d=b/88.43;
+alert("Получается: "+d+" евро");
+*/
+
+/*
+        var a=prompt("Введите количество долларов для перевода в рубли");
+        parseInt(a);
+        var c=a*74.07;
+        alert("Получается: "+c+" руб.");
+        var b=prompt("Введите количество евро для перевода в рубли");
+        parseInt(b);
+        var d=b*88.43;
+        alert("Получается: "+d+" руб.");
+*/
+
+</script>
